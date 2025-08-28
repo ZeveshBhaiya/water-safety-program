@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Water Safety Precautions</div> <br> 
+       <nav>
+         <button onclick="toggleMenu()">&#9776</button>
+        <ul id="nav-links" class="hidden">
+            <a href="#home">- Home</a> <br>
+            <a href="#hazards">- Hazards</a> <br>
+            <a href="#precautions">- Precautions</a> <br>
+            <a href="#add suggestions">- Add Suggestion</a>
+        </ul>
+    </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h1>Types of water </h1>
+        <p><li>Fresh Water</li></p>
+        <p><Li>Purify Water</Li></p>
+        <p><li>Sea Water </li></p>
+        <p><li>lake Water</li></p>
+        <p><li>River Water</li></p>
+        <p><li>Filteration Water</li></p>
+        <p><li>Salt Water</li></p>
+        <h1>Uses of Water</h1>
+        <p><li>Drinking</li></p>
+        <p><li>Cooking</li></p>
+        <p><li>Bathing</li></p>
+        <p><li>Washing</li></p>
+        <p><li>Industries</li></p>
+        <p><li>Automobiles</li></p>
+        <p><li>Agriculture</li></p>
+        <p><li>Farming</li></p>
+        <p><li>Manfacturing</li></p>
+
+    </section>
+
+    <section id="hazard" class="hazard">
+        <h2>Hazards</h2>
+        <p><li>Lack of rainfall</li></p>
+         <p><li>Increasing in population</li></p>
+          <p><li>Increase in traffic</li></p>
+      <p><li>Burning Fossil fules</li></p>
+        <p><li>Increasing in Rular Areas </li></p>
+            <p><li>Improper use of water</li></p>
+    </section>
+
+    <section id="precautions" class="precautions">
+        <h1>Precautions</h1>
+        <p><li>Make Dams</li></p>
+         <p><li>Repair Pipelines</li></p>
+          <p><li>Destillation</li></p>
+           <p><li>An indiviually Stores and use rain water </li></p>
+            <p><li>Close your penstock in tightly manner</li></p>
+    </section>
+
+    
+<section id="suggestion" class="suggestion"> <br>
+     <h1>Add your Suggestions </h1>
+       <form onsubmit="return validateForm()">
+        <input type="Name" placeholder="Your Name">
+        <input type="city" placeholder="your city">
+        <input type="suges" placeholder="Enter your Suggestion">
+      <br>
+    </form>
+     <button id="suggestion" class="btn">submit</button> 
+
+</section> <br>
+
+<footer>
+    Water Safety Precautions . All CopyRight Reserved .
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
